@@ -1,78 +1,68 @@
-````markdown
-# 🐍 Neon-Themed Snake Game 🎮
+# 🐍 Snake Game — Neon Themed Java Edition
 
-### Because why should snakes only crawl when they can GLOW?
-
----
-
-## 🔥 About the Project
-
-This is my take on the classic Snake Game, but with a modern, neon arcade vibe and sound-packed gameplay — built entirely in **Java** using **Swing**.
+A retro-style, neon-themed **Snake Game** built using pure Java. The game includes sound effects, speed increase, hunger-based countdown, and a polished UI for a modern, arcade feel.
 
 ---
 
-## 🚀 Features
+## 🎮 Features
 
-✅ Neon-themed snake, food, and obstacles  
-✅ Dramatic sound effects (because quiet snakes are boring)  
-✅ Countdown timer before the game starts  
-✅ Hunger mechanic: eat before the snake "starves"  
-✅ Obstacles change positions after every few food pickups  
-✅ Start screen, pause/resume, and flashy game over animation  
-✅ Wrapping screen edges (because boundaries are overrated)  
+✅ Classic snake movement
+✅ Neon-themed pixel art visuals
+✅ Sound effects for eating and game over
+✅ Countdown timer mode (Hunger mechanic)
+✅ Increasing speed as the game progresses
+✅ Pause/Resume functionality
+✅ Start screen with instructions
+✅ Game Over animation
+✅ Easy to run with `.jar` file available under Releases
 
 ---
 
-## 🛠️ Built With
+## 🗂 Project Structure
 
-- Java (Swing GUI)
-- Java Sound API
-- OOP (because writing spaghetti code isn't cool)
-  
+```
+├── GamePlay.java       // Main game logic
+├── Main.java           // Game launcher
+├── resources/          // Sound files
+├── *.png               // Game images (snake, food, etc.)
+├── manifest.txt
+├── .gitignore
+└── README.md
+```
+
 ---
 
-## 🎯 How to Run the Game
+## 🚀 How to Run
 
-1. **Compile** the source files:  
-   ```bash
-   javac GamePlay.java Main.java
-````
+1. Download the latest `.jar` file from [Releases](../../releases).
 
-2. **Run** the game:
-
-   ```bash
-   java Main
-   ```
-
-3. Alternatively, run the provided `.jar` file :
+2. Run the game using:
 
    ```bash
    java -jar SnakeGame.jar
    ```
 
-⚡ **Note:** Make sure your `resources` folder with all images and audio files is present in the correct structure.
+3. Make sure your system has **Java 17 or later** installed.
 
 ---
 
-## 🎨 Resources
+## 📦 Releases
 
-All images are inside the `resources` folder and sound effects and music are in the 'assets' folder .
----
-
-## 🎥 Bonus
-
-Video proof of glowing, pixel-munching fun available on my LinkedIn post! 😎
+👉 [Click here to download the playable `.jar` file](../../releases)
 
 ---
 
-## 🤔 Why I Did This
+## ⚡ Notes
 
-* To learn GUI with Java
-* To battle hunger — both in-game and in real life
-* To fight with pixels & sound files for hours (and win)
+* Source code is available for learning and educational purposes.
+* No `.class` files or generated binaries are stored directly in the repo.
+* Feel free to contribute or suggest improvements!
 
 ---
 
-## 📢 Feedback & Suggestions?
+## 👨‍💻 Author
 
-Feel free to create an Issue or laugh at my code. Either way, I'm learning! 😉
+Made with 💻 by [Yash Tripathi](https://github.com/YashTripathi-19)
+
+🔗 **Connect with me on LinkedIn:** [linkedin.com/in/yashtripathi19](https://www.linkedin.com/in/yash-tripathi-194211295/)
+*Happy to connect and collaborate on projects!*
